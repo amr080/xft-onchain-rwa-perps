@@ -1,0 +1,467 @@
+<!DOCTYPE html><!-- Last Published: Tue Jun 18 2024 19:26:28 GMT+0000 (Coordinated Universal Time) --><html data-wf-domain="www.ostium.io" data-wf-page="657bbf487f439b5b8200535f" data-wf-site="65737c87ec1260a2cdf2b38f" lang="en"><head><meta charset="utf-8"/><title>Ostium</title><meta content="https://cdn.prod.website-files.com/6577dfbcd6c53fec0fcf2de0/65f201b5ddd2a390d8142543_Macro%20Research%20Bites%206.png" property="og:image"/><meta content="https://cdn.prod.website-files.com/6577dfbcd6c53fec0fcf2de0/65f201b5ddd2a390d8142543_Macro%20Research%20Bites%206.png" property="twitter:image"/><meta content="width=device-width, initial-scale=1" name="viewport"/><meta content="rUo_WMNxPwThpzP14FV4IuOfS4b_rUOJfNHak46csHs" name="google-site-verification"/><link href="https://cdn.prod.website-files.com/65737c87ec1260a2cdf2b38f/css/ostium-staging-site-4462-53bd7c62639d4.webflow.4606d18d0.css" rel="stylesheet" type="text/css"/><script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script><link href="https://cdn.prod.website-files.com/65737c87ec1260a2cdf2b38f/6596abaa30fe552d1b65cd9d_favicon.png" rel="shortcut icon" type="image/x-icon"/><link href="https://cdn.prod.website-files.com/65737c87ec1260a2cdf2b38f/6596abbff71c50c9afe48383_favicon.png" rel="apple-touch-icon"/><script async="" src="https://www.googletagmanager.com/gtag/js?id=G-2PDJ3N9NX6"></script><script type="text/javascript">window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('set', 'developer_id.dZGVlNj', true);gtag('config', 'G-2PDJ3N9NX6');</script>
+<!-- Adding the standalone version of Lightweight charts -->
+<script
+    type="text/javascript"
+    src="https://unpkg.com/lightweight-charts/dist/lightweight-charts.standalone.production.js"
+></script>
+
+<script src="https://web3analytic-scripts.s3.us-west-2.amazonaws.com/bundle.min.js"></script>
+
+<style>
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #ff5a19 #ffffff00;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 13px;
+    height:13px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #000;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #ff5a19;
+    border-radius: 10px;
+    border: 3px solid #000;
+  }
+  
+  .tags-custom:hover{
+    background-color:#232323 !important;
+    
+  }
+  .tags-custom:hover .text-32{
+  color:#D0DBDA !important;
+  }
+</style>
+
+
+<style>
+	.copy-to-clipboard:hover .blog-icon{
+  filter:brightness(100%) !important;
+  }
+  .copy-to-clipboard:hover{
+  	background-color:rgba(35,35,35) !important;
+  }
+</style><!-- [Attributes by Finsweet] Copy to clipboard -->
+<script defer src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-copyclip@1/copyclip.js"></script>
+
+<style>
+
+
+  #sib-container input:-ms-input-placeholder {
+    text-align: left;
+    font-family: "Helvetica", sans-serif;
+    color: #c0ccda;
+  }
+
+  #sib-container input::placeholder {
+    text-align: left;
+    font-family: "Helvetica", sans-serif;
+    color: #c0ccda;
+  }
+
+  #sib-container textarea::placeholder {
+    text-align: left;
+    font-family: "Helvetica", sans-serif;
+    color: #c0ccda;
+  }
+</style>
+<link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css"></head><body class="body-2"><div data-w-id="36477d25-a43f-2d80-0eb9-a07c96144475" data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav"><div data-w-id="8cb5996a-3435-94e0-d423-69225466b746" class="div-block-47"></div><div class="div-block-33"><div class="div-block-25"><div data-w-id="36477d25-a43f-2d80-0eb9-a07c96144476" class="div-block-6"><div class="container-6 w-container"><a href="/" class="brand w-nav-brand"><div class="main-logo"><div class="html-embed-10 desktop-logo w-embed"><svg width="151" height="24" viewBox="0 0 151 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0.229982 22L0.241093 24H11.23V0H0.241093L0.229982 2C5.20109 2 9.22998 6.02889 9.22998 11V13C9.22998 17.9711 5.20109 22 0.229982 22Z" fill="currentColor"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0.22998 12C0.22998 15.0856 1.39442 17.8989 3.30776 20.0256C3.61331 19.87 3.90887 19.6978 4.1922 19.5078C2.35442 17.5422 1.22998 14.9022 1.22998 12C1.22998 9.09667 2.35442 6.45667 4.19331 4.49111C3.90887 4.30222 3.61331 4.13 3.30776 3.97444C1.39442 6.10111 0.22998 8.91444 0.22998 12Z" fill="currentColor"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M24.23 22L24.2189 24H13.23V0H24.2189L24.23 2C19.2589 2 15.23 6.02889 15.23 11V13C15.23 17.9711 19.2589 22 24.23 22Z" fill="currentColor"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M24.23 12C24.23 15.0856 23.0655 17.8989 21.1522 20.0256C20.8466 19.87 20.5511 19.6978 20.2678 19.5078C22.1055 17.5422 23.23 14.9022 23.23 12C23.23 9.09778 22.1055 6.45667 20.2666 4.49111C20.5511 4.30222 20.8466 4.13 21.1522 3.97444C23.0655 6.10111 24.23 8.91444 24.23 12Z" fill="currentColor"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M41.4181 20.428C42.8059 21.2164 44.386 21.6 46.1581 21.6C48.0157 21.6 49.6385 21.1951 51.005 20.3853C52.3928 19.5543 53.4391 18.4035 54.165 16.9545C54.9123 15.4841 55.2753 13.822 55.2753 11.9467C55.2753 10.0289 54.891 8.3667 54.1223 6.93896C53.3537 5.4899 52.2861 4.3818 50.8982 3.59334C49.5104 2.80488 47.9303 2.4 46.1368 2.4C44.3006 2.4 42.6778 2.80488 41.29 3.61465C39.9235 4.42442 38.8772 5.55383 38.1299 7.00288C37.404 8.43063 37.041 10.0715 37.041 11.9467C37.041 13.8646 37.4253 15.5694 38.194 17.0397C38.9626 18.4888 40.0302 19.6182 41.4181 20.428ZM49.5744 18.3609C48.5922 18.9576 47.4606 19.2559 46.1368 19.2559C44.8343 19.2559 43.7027 18.9576 42.7419 18.3609C41.7597 17.7643 41.0124 16.9119 40.4786 15.8038C39.9662 14.717 39.7099 13.4171 39.7099 11.9254C39.7099 10.455 39.9662 9.17647 40.4786 8.11099C41.0124 7.0242 41.7597 6.19312 42.7419 5.61776C43.7241 5.02109 44.8557 4.72275 46.1368 4.72275C47.4393 4.72275 48.5922 5.02109 49.5744 5.61776C50.5566 6.19312 51.3039 7.0242 51.8377 8.11099C52.3715 9.19778 52.6277 10.455 52.6277 11.9254C52.6277 13.4171 52.3715 14.6957 51.8377 15.8038C51.3253 16.9119 50.5779 17.7429 49.5744 18.3609ZM68.7055 21.6C67.1468 21.6 65.759 21.3443 64.5419 20.8542C63.3249 20.364 62.3427 19.6608 61.6381 18.7658C60.9335 17.8708 60.5492 16.8266 60.4638 15.6333H63.1541C63.3035 16.7414 63.8587 17.6364 64.8622 18.3183C65.8444 18.9789 67.1468 19.2986 68.7269 19.2986C70.0507 19.2986 71.0756 19.0428 71.7588 18.5527C72.4634 18.0413 72.8264 17.3381 72.8264 16.4218C72.8264 15.8677 72.6769 15.4202 72.3994 15.0366C72.1218 14.6744 71.7375 14.3547 71.2891 14.1416C70.8407 13.8859 70.2855 13.6728 69.5809 13.481L66.4209 12.5008L66.2074 12.4582C66.1433 12.4155 66.0579 12.3942 65.9939 12.3729C65.1184 12.0959 64.3284 11.7976 63.6238 11.4779C62.9406 11.1583 62.3641 10.6681 61.8516 10.0289C61.3392 9.36826 61.083 8.51587 61.083 7.4717C61.083 6.49145 61.3392 5.59645 61.8516 4.85061C62.3854 4.06215 63.1327 3.46548 64.1149 3.03929C65.0971 2.6131 66.2287 2.4 67.5098 2.4C68.9404 2.4 70.2001 2.63441 71.2677 3.12453C72.3567 3.59334 73.1894 4.31787 73.7872 5.25549C74.4064 6.17181 74.7694 7.27991 74.8548 8.60111H72.1858C72.1004 7.38646 71.6307 6.42753 70.798 5.76693C69.9866 5.08502 68.855 4.72275 67.4031 4.72275C66.2714 4.72275 65.3533 4.95716 64.67 5.44728C63.9868 5.91609 63.6665 6.53407 63.6665 7.36515C63.6665 7.89789 63.7946 8.32408 64.0722 8.66504C64.3498 9.00599 64.6914 9.26171 65.1184 9.4535C65.5455 9.62397 66.1006 9.83707 66.7839 10.0715C66.8693 10.0928 66.9547 10.1141 67.0187 10.1141C67.1041 10.1354 67.1895 10.1567 67.275 10.1993L70.2001 11.0943C71.2891 11.4566 72.1858 11.7976 72.9118 12.1598C73.6378 12.5008 74.2356 13.0122 74.7267 13.6941C75.2178 14.376 75.474 15.2497 75.474 16.3152C75.474 17.402 75.1964 18.3609 74.6413 19.1494C74.1075 19.9378 73.3388 20.5558 72.3353 20.982C71.2891 21.3869 70.0934 21.6 68.7055 21.6ZM85.6801 5.06371V21.2804H88.2636V5.06371H94.6264V2.69834H79.3386V5.06371H85.6801ZM100.263 21.2804V2.69834H102.868V21.2804H100.263ZM113.117 20.7476C114.27 21.323 115.615 21.6 117.152 21.6C118.711 21.6 120.056 21.323 121.188 20.7476C122.32 20.1723 123.195 19.3838 123.793 18.3822C124.391 17.402 124.69 16.2939 124.69 15.0579V2.69834H122.085V15.0153C122.085 15.9103 121.871 16.6562 121.423 17.2954C120.996 17.9347 120.398 18.4249 119.651 18.7445C118.903 19.0641 118.071 19.2133 117.152 19.2133C116.234 19.2133 115.38 19.0641 114.633 18.7445C113.886 18.4036 113.288 17.9134 112.861 17.2954C112.434 16.6562 112.22 15.889 112.22 15.0153V2.69834H109.637V15.0579C109.637 16.2726 109.936 17.3807 110.512 18.3822C111.11 19.3625 111.985 20.1509 113.117 20.7476ZM131.458 2.69834V21.2804H134.063V7.21598L139.743 21.2804H142.134L147.878 7.19467V21.2804H150.461V2.69834H147.216L140.96 18.1905L134.661 2.69834H131.458Z" fill="currentColor"/>
+</svg></div><div class="html-embed-10 mobile-logo w-embed"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 22L0.0111103 24H11V0H0.0111103L0 2C4.97111 2 9 6.02889 9 11V13C9 17.9711 4.97111 22 0 22Z" fill="currentColor"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 12C0 15.0856 1.16444 17.8989 3.07778 20.0256C3.38333 19.87 3.67889 19.6978 3.96222 19.5078C2.12445 17.5422 1 14.9022 1 12C1 9.09668 2.12444 6.45668 3.96333 4.49112C3.67889 4.30223 3.38333 4.13001 3.07778 3.97446C1.16444 6.10112 0 8.91446 0 12Z" fill="currentColor"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M24 22L23.9889 24H13V0H23.9889L24 2C19.0289 2 15 6.02889 15 11V13C15 17.9711 19.0289 22 24 22Z" fill="currentColor"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M24 12C24 15.0856 22.8356 17.8989 20.9222 20.0256C20.6167 19.87 20.3211 19.6978 20.0378 19.5078C21.8756 17.5422 23 14.9022 23 12C23 9.09779 21.8756 6.45668 20.0367 4.49112C20.3211 4.30223 20.6167 4.13001 20.9222 3.97446C22.8356 6.10112 24 8.91446 24 12Z" fill="currentColor"/>
+</svg></div></div></a></div><div class="div-block-51"><div class="div-block-5 desktop-hidden-button"><a data-w-id="ffd00546-e2b5-dec8-4923-df93a97f4423" href="https://ostium.app" target="_blank" class="button-secondary w-inline-block"><div class="text-3">Launch App</div></a></div><div class="menu-button-2 w-nav-button"><div class="hamburger-line top-line"></div><div class="hamburger-line bottom-line"></div></div></div></div><nav role="navigation" class="nav-menu-2 w-nav-menu"><a href="https://ostium-labs.gitbook.io/ostium-docs" class="nav-bar-new-link w-inline-block"><div class="main-nav-link"><p data-w-id="0b3c8ac5-7851-b2f8-1b01-12e7e738dd5d" class="desktop-body3 navbar-text">Docs</p><div class="growing-line-wrapper"><div class="growing-line"></div></div></div></a><a href="/blog" class="nav-bar-new-link w-inline-block"><div class="main-nav-link"><p class="desktop-body3 navbar-text">Blog</p></div></a><a href="https://docs.google.com/forms/d/e/1FAIpQLSfhst1ntPzlqRMOiaRQD5PHHHlhNZpEdaQXOjb4MIxFWikSxg/viewform?pli=1" class="nav-bar-new-link w-inline-block"><div class="main-nav-link"><p class="desktop-body3 navbar-text">Careers</p></div></a><a href="#" class="nav-bar-new-link community-link w-inline-block"><div class="main-nav-link"><p class="desktop-body3 navbar-text">Community</p></div></a><div data-hover="true" data-delay="0" class="dropdown w-dropdown"><div class="dropdown-toggle nav-bar-new-link w-dropdown-toggle"><div class="icon-12 w-icon-dropdown-toggle"></div><div class="desktop-body3 navbar-text community-text">Community</div></div><nav class="dropdown-list-2 w-dropdown-list"><a data-w-id="4fed25b4-7bb6-f565-586c-2342cd9ff418" href="https://twitter.com/ostiumlabs" target="_blank" class="link-block-8 first-link w-inline-block"><div class="html-embed-8 w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+  <path d="M14.2762 3.74707H16.4485L11.7027 9.17129L17.2858 16.5524H12.9143L9.4903 12.0758L5.57252 16.5524H3.39889L8.47506 10.7506L3.11914 3.74707H7.60167L10.6966 7.83887L14.2762 3.74707ZM13.5138 15.2522H14.7175L6.94761 4.97901H5.65592L13.5138 15.2522Z" fill="currentColor"/>
+</svg></div><p class="desktop-body3 custom-drop-down">Twitter</p></a><a data-w-id="8bf5fbe5-1d6d-20f0-5628-0373da4a5df9" href="https://discord.gg/44hxSkfy9a" target="_blank" class="link-block-8 w-inline-block"><div class="html-embed-8 w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+  <path d="M15.7843 4.60297C14.7054 4.0982 13.5518 3.73135 12.3458 3.52246C12.1977 3.79025 12.0246 4.15042 11.9053 4.43694C10.6233 4.24414 9.35306 4.24414 8.0946 4.43694C7.97532 4.15042 7.79834 3.79025 7.64891 3.52246C6.44158 3.73135 5.28668 4.09954 4.20782 4.60564C2.03174 7.89398 1.44184 11.1006 1.73679 14.2618C3.18008 15.3396 4.5788 15.9943 5.95391 16.4228C6.29344 15.9555 6.59625 15.4587 6.85711 14.9352C6.36029 14.7465 5.88444 14.5135 5.43482 14.243C5.5541 14.1547 5.67078 14.0623 5.7835 13.9672C8.52587 15.2499 11.5055 15.2499 14.2151 13.9672C14.3292 14.0623 14.4458 14.1547 14.5638 14.243C14.1129 14.5148 13.6357 14.7478 13.1389 14.9366C13.3998 15.4587 13.7013 15.9568 14.0421 16.4241C15.4185 15.9956 16.8186 15.3409 18.2618 14.2618C18.6079 10.5972 17.6706 7.42 15.7843 4.60297ZM7.23072 12.3177C6.40749 12.3177 5.73237 11.5492 5.73237 10.6133C5.73237 9.67738 6.39307 8.90752 7.23072 8.90752C8.06839 8.90752 8.74349 9.67604 8.72907 10.6133C8.73037 11.5492 8.06839 12.3177 7.23072 12.3177ZM12.7679 12.3177C11.9447 12.3177 11.2696 11.5492 11.2696 10.6133C11.2696 9.67738 11.9302 8.90752 12.7679 8.90752C13.6056 8.90752 14.2807 9.67604 14.2663 10.6133C14.2663 11.5492 13.6056 12.3177 12.7679 12.3177Z" fill="currentColor"/>
+</svg></div><p class="desktop-body3 custom-drop-down">Discord</p></a><a data-w-id="5708d898-09a0-3bd2-5950-75ea350fadea" href="https://t.me/ostiumio" target="_blank" class="link-block-8 w-inline-block"><div class="html-embed-8 w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M4.22201 9.22245C7.68959 7.56519 10.0018 6.47262 11.1588 5.94474C14.4621 4.43755 15.1485 4.17573 15.5959 4.16708C15.6943 4.16518 15.9143 4.19193 16.0568 4.31879C16.1771 4.4259 16.2103 4.57059 16.2261 4.67215C16.2419 4.7737 16.2617 5.00505 16.246 5.18582C16.067 7.24905 15.2924 12.256 14.8984 14.5668C14.7316 15.5446 14.4033 15.8725 14.0855 15.9046C13.3947 15.9743 12.8702 15.4038 12.2012 14.9227C11.1543 14.1699 10.5628 13.7013 9.54664 12.9667C8.37225 12.1178 9.13356 11.6512 9.80284 10.8886C9.97799 10.6891 13.0215 7.65234 13.0804 7.37687C13.0877 7.34241 13.0946 7.21399 13.025 7.14618C12.9555 7.07836 12.8528 7.10155 12.7787 7.11999C12.6737 7.14614 11.0013 8.35874 7.76146 10.7578C7.28674 11.1154 6.85676 11.2896 6.47151 11.2805C6.04681 11.2704 5.22984 11.0171 4.62251 10.8005C3.8776 10.5349 3.28556 10.3945 3.33711 9.94335C3.36397 9.70838 3.65893 9.46808 4.22201 9.22245Z" fill="currentColor"/>
+</svg></div><p class="desktop-body3 custom-drop-down">Telegram</p></a><a data-w-id="b17f7489-4ed0-c187-be93-526e4b8aba0a" href="https://medium.com/@ostiumlabs" target="_blank" class="link-block-8 last-link w-inline-block"><div class="html-embed-8 w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+  <path d="M13.6049 14.395C15.0085 14.395 16.1464 12.342 16.1464 9.80941C16.1464 7.27686 15.0085 5.22383 13.6049 5.22383C12.2013 5.22383 11.0635 7.27686 11.0635 9.80941C11.0635 12.342 12.2013 14.395 13.6049 14.395Z" fill="currentColor"/>
+  <path d="M5.75725 14.6167C8.4763 14.6167 10.6805 12.4639 10.6805 9.80836C10.6805 7.15278 8.4763 5 5.75725 5C3.03821 5 0.833984 7.15278 0.833984 9.80836C0.833984 12.4639 3.03821 14.6167 5.75725 14.6167Z" fill="currentColor"/>
+  <path d="M17.3651 13.8816C17.9002 13.8816 18.3339 12.0606 18.3339 9.81429C18.3339 7.56799 17.9002 5.747 17.3651 5.747C16.83 5.747 16.3962 7.56799 16.3962 9.81429C16.3962 12.0606 16.83 13.8816 17.3651 13.8816Z" fill="currentColor"/>
+</svg></div><p class="desktop-body3 custom-drop-down">Medium</p></a></nav></div><div class="w-embed"><style>
+
+.navbar-text {
+  display: inline-block;
+  position: relative;
+ 
+}
+
+.navbar-text::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #FF5A19;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.nav-bar-new-link:hover .navbar-text::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+@media screen and (min-width:991px){
+  .nav-bar-new-link:hover .navbar-text{
+    color:#FF5A19;
+  }
+
+
+  .w--current .navbar-text{
+  color:#FF5A19;
+  }
+
+}
+
+
+</style></div></nav><div data-w-id="36477d25-a43f-2d80-0eb9-a07c96144485" class="div-block-5 special-class"><a data-w-id="2c3a3c99-1e42-bd61-8d70-2bba73ad76e3" href="https://ostium.app" class="button-secondary w-inline-block"><div class="text-3">Launch App</div></a></div></div></div></div><section class="blog-detail-section"><div class="go-back-to-articles"><a data-w-id="6d434ae5-d8ea-a519-0fb8-7d407178958a" href="/blog" class="button-secondary blog-go-back w-inline-block"><img src="https://cdn.prod.website-files.com/65737c87ec1260a2cdf2b38f/658352268fc9d6329ceacbda_Frame%201000001858.svg" loading="lazy" alt="" class="image-108"/><div class="text-3">Back to Articles</div></a></div><div class="blog-detail-section-wrapper"><div class="blog-detail-left"><p class="blog-detail-p">March 13, 2024</p><p class="blog-detail-p">-</p><div class="div-block-60"><p class="blog-detail-p">6</p><p class="blog-detail-p"> min read</p></div></div><div class="blog-detail-share"><div class="actions"><div class="w-embed"><a data-w-id="cf699188-d9aa-a7ca-65ce-8ce187721e45" href="https://twitter.com/intent/tweet?url=https://www.ostium.io/blog/macro-research-bites-6-industrial-metals-in-the-electric-vehicles-sector-guest-post" target="_blank" class="copy-to-clipboard w-inline-block" style="background-color: rgba(0, 0, 0, 0);"><div class="icon-social-copy"><img src="https://assets-global.website-files.com/65737c87ec1260a2cdf2b38f/65737c87ec1260a2cdf2b3d4_Vectors-Wrapper.svg" loading="lazy" width="11.333333969116211" height="10.244287490844727" alt="" class="blog-icon" style="filter: brightness(100%);"></div></a></div><div data-w-id="01df088b-9c1a-de8a-4db8-e0d2b95a4e85" class="copy-to-clipboard"><div fs-copyclip-message="copied" fs-copyclip-element="click" class="icon-social-copy custom-copy-to-clipboard"><img src="https://cdn.prod.website-files.com/65737c87ec1260a2cdf2b38f/65737c87ec1260a2cdf2b3d5_Vectors-Wrapper.svg" loading="lazy" width="12" height="12" alt="" class="blog-icon"/></div><div class="html-embed-6 w-embed"><p fs-copyclip-element="copy-sibling">https://www.ostium.io/blog/macro-research-bites-6-industrial-metals-in-the-electric-vehicles-sector-guest-post</p></div></div></div></div></div></section><section class="blog-title-section"><div class="blog-article-header"><h1 class="desktop-h3 blog-title">Macro Research Bites #6: Industrial Metals in the Electric Vehicles sector (Truflation Guest Post)</h1><p class="paragraph">This week, we bring on Stefan Rust, CEO of Truflation, as a guest author for our Macro Research Bites series. We dive into industrial metals like lithium, copper, cobalt, nickel and palladium – many of which will soon be tradable as perpetuals on Ostium – and explore their significance to the growing Electric Vehicles sector.</p></div></section><section class="main-blog-content"><div class="main-blog-content-wrapper"><div class="main-blog-rich-text w-richtext"><figure style="max-width:600px" class="w-richtext-align-center w-richtext-figure-type-image"><div><img src="https://cdn.prod.website-files.com/6577dfbcd6c53fec0fcf2de0/65f201b5ddd2a390d8142543_Macro%20Research%20Bites%206.png" loading="lazy" alt=""/></div></figure><p>‍</p><p>It’s been a turbulent year for commodities, with macro events, both in the US and the Middle East, taking their toll. This trend has been particularly pronounced in the metals market, where commodities are being buffeted by economic and manufacturing forces. Both the Dow Jones Industrial Metals and S&amp;P Industrial Metals indices are recording losses of around -4.5% in the year to March 13th, buoyed more recently by a 2024 rebound after over 6% losses in 2023. These price changes impact not only miners and producers, but also downstream manufacturers with dependence on these raw materials. </p><p>‍</p><p>For Electric Vehicle (EV) manufacturers in particular, capricious commodities prices complicate profit projections, even if the volatility is welcomed by day traders. Aside from copper, each automobile battery – the heaviest and most expensive component of an EV – requires over <a href="https://elements.visualcapitalist.com/the-key-minerals-in-an-ev-battery/">100kg</a> of nickel, aluminium, graphite, steel, lithium, and iron – as well as smaller amounts of manganese and cobalt.</p><p>‍</p><p>For petrol vehicles, commodity prices have less of an impact on manufacturing, since the primary commodity of significance – oil – is passed on to the consumer at the pump. EVs, on the other hand, incur the bulk of the expense needed to power their functioning before they’ve rolled out of the auto plant. While the quantity of each metal used in modern EV battery production is relatively stable, the price of each commodity is anything but.</p><p>‍</p><h4>Lithium and Cobalt Feel the Pinch</h4><p>Crypto markets aren’t the only ones to have seen volatility post-pandemic – lithium and cobalt declined nearly 75% and 50%, respectively, in the year following their 2022 peaks. Despite continued growth in demand for Electric Vehicles in the U.S., with over one million in annual <a href="https://theicct.org/us-ev-sales-soar-into-24-jan24/">sales</a> in 2023 for the first time, sluggish demand in China and scalebacks in production from manufacturers like Ford and General Motors have weighed on industrial metals prices. Indeed, the EV market has grown to exert outsize influence on industrial metals like lithium, cobalt, and nickel. Approximately 60%, 30%, and 10% respectively of total <a href="https://www.iea.org/reports/global-ev-outlook-2023/trends-in-batteries">demand</a> for each of these metals is driven directly by lithium-ion battery production, critical to EVs.</p><p>‍</p><figure style="max-width:600px" class="w-richtext-align-center w-richtext-figure-type-image"><div><img src="https://cdn.prod.website-files.com/6577dfbcd6c53fec0fcf2de0/65f2012d89d366c74eaeaab2_Cobalt%20Futures%20Prices.png" loading="lazy" alt=""/></div><figcaption>Source: Statista</figcaption></figure><p>‍</p><p>A combination of supply side surplus dynamics and lower-than-expected growth in EV sales in Asia drove a slide in lithium and cobalt prices in 2023. While demand for lithium and cobalt is beginning to rise again, aided by a rebounding market and reduced recession fears, there is still significant surplus available. Indeed, refinery production has remained steady over the last 12 months, even as demand has dropped. On February 5th, shares in Sigma Lithium (TSXV: SGML), one of the leading market players, <a href="https://thedeepdive.ca/sigma-lithium-continues-to-plummet-falls-14-as-ev-demand-loses-steam/">fell</a> by 14%, suggesting more pain to come – at least for metals producers.</p><p>‍</p><p>Other companies have fared better; LG Energy Solution, whose batteries are used by Tesla, GM, and Volkswagen, saw its Q4 profits <a href="https://www.msn.com/en-us/money/other/battery-firm-lg-energy-solution-s-q4-profit-up-43-on-higher-us-output/ar-BB1hhcGG">rise</a> by 43%. As the global economy heats up again and metals recover from last year’s drastic fall: are we poised for a resurgence in the asset class?</p><p>‍</p><p>‍</p><figure style="max-width:600px" class="w-richtext-align-center w-richtext-figure-type-image"><div><img src="https://cdn.prod.website-files.com/6577dfbcd6c53fec0fcf2de0/65f201a3f03d40c361abc8ee_Lithium%20batteries.png" loading="lazy" alt=""/></div><figcaption>Source: BloombergNEF</figcaption></figure></div></div><div class="blog-newsletter-cta"><img src="https://cdn.prod.website-files.com/65737c87ec1260a2cdf2b38f/6580f1d30d43e15b5e195349_Clumn.png" loading="lazy" alt="" class="blog-pillar-left"/><img src="https://cdn.prod.website-files.com/65737c87ec1260a2cdf2b38f/6580f21893b7f75c5130cb17_Clumn.png" loading="lazy" alt="" class="blog-pillar-right"/><h3>Subscribe to Ostium Labs</h3><p>Receive the latest updates directly to your inbox</p><div class="html-embed-7 w-embed"><style>
+  #sib-container{
+    background:none !important;
+    border-color:grey !important;
+    border-radius:10px;
+    border:none !important;
+    padding:0!important;
+
+  }
+  #sib-form{
+    display:flex;
+    position:relative;
+
+  }
+  .sib-form{
+    position:relative;
+    padding:0 !important;
+  }
+  #sib-form div:nth-child(1){
+    padding:0 !important;
+    width:100%;
+  }
+  #sib-form-container{
+    width:100%;
+  }
+
+  #sib-form div:nth-child(2){
+    padding:4px 0 !important;
+    padding-right:4px !important;
+    position:absolute !important;
+    right:0;
+    top:auto;
+    bottom:auto;
+    height:100% !important;
+  }
+  #sib-form div:nth-child(2) .sib-form-block{
+    height:100% !important;
+  }
+  .entry__error{
+    margin-bottom:0 !important;
+    margin-top:0!important;
+  }
+  .entry__field{
+    background-color:transparent !important;
+    margin:0 !important;
+    border-radius:10px !important;
+    border-color:rgba(208, 219, 218, .2) !important;
+  }
+  .sib-input {
+    padding:0 !important;
+  }
+  .sib-input .input{
+    padding-top:14px;
+    padding-bottom:14px;
+    height:inherit !important;
+    padding-right:100px !important;
+    padding-left: 14px !important;
+    color:#d0dbda !important;
+  }
+
+  .sib-form-block__button{
+    background-color:#FF5A19 !important;
+    font-family: Ppmori Variable, sans-serif !important;
+    color:black !important;
+    font-weight:600 !important;
+    border-radius:8px !important;
+    line-height: inherit !important;
+    min-height:inherit !important;
+    height:100% !important;
+    padding-bottom:7px!important;
+    transition:all .2s;
+    padding-top: 10px;
+  }
+
+  .sib-form-block__button:hover{
+    background-color:#d0dbda !important;
+    transition:all .2s;
+  }
+
+  .entry_errored .entry__error, #success-message, #error-message {
+    position:absolute !important;
+    font-weight:400 !important;
+    font-family: Ppmori Variable, sans-serif !important;
+    font-size: 12px !important;
+    top: 100% !important;    
+    border-width: 0 !important;
+    padding: 10px!important;
+    padding-bottom: 8px !important;
+    border-radius:10px!important;
+    color:#D0DBDA !important;
+    width: 100% !important;
+    margin-top: 4px !important;
+    margin-left: 0 !important;
+    left: 0 !important;
+  }
+  
+  .sib-form-message-panel__text {
+  	padding: 0 !important;
+  }
+  
+  .entry_errored .entry__error, #error-message {
+    background-color:#A92D28 !important;
+  }
+  
+  .entry_errored .entry_error {
+    left: -1px !important;
+  }
+  
+  #success-message{
+    background-color:#0E9C52!important;
+    z-index:9;
+  }
+  
+ .sib-form-block__button {
+ 	display: flex;
+  flex-direction: row;
+  align-items: center;
+ }
+
+</style>
+
+
+<!-- START - We recommend to place the below code where you want the form in your website html  -->
+<div class="sib-form" style="text-align: center;">
+  <div id="sib-form-container" class="sib-form-container">
+    <div id="error-message" class="sib-form-message-panel" style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;max-width:540px;">
+      <div class="sib-form-message-panel__text sib-form-message-panel__text--center">
+        <svg width="16" height="16" viewBox="0 0 512 512" class="sib-icon sib-notification__icon">
+          <path d="M256 40c118.621 0 216 96.075 216 216 0 119.291-96.61 216-216 216-119.244 0-216-96.562-216-216 0-119.203 96.602-216 216-216m0-32C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm-11.49 120h22.979c6.823 0 12.274 5.682 11.99 12.5l-7 168c-.268 6.428-5.556 11.5-11.99 11.5h-8.979c-6.433 0-11.722-5.073-11.99-11.5l-7-168c-.283-6.818 5.167-12.5 11.99-12.5zM256 340c-15.464 0-28 12.536-28 28s12.536 28 28 28 28-12.536 28-28-12.536-28-28-28z" />
+        </svg>
+        <span class="sib-form-message-panel__inner-text">
+          Your subscription could not be saved. Please try again.
+        </span>
+      </div>
+    </div>
+    <div id="success-message" class="sib-form-message-panel" style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#085229; background-color:#e7faf0; border-radius:3px; border-color:#13ce66;max-width:540px;">
+      <div class="sib-form-message-panel__text sib-form-message-panel__text--center">
+        <svg width="16" height="16" viewBox="0 0 512 512" class="sib-icon sib-notification__icon">
+          <path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 464c-118.664 0-216-96.055-216-216 0-118.663 96.055-216 216-216 118.664 0 216 96.055 216 216 0 118.663-96.055 216-216 216zm141.63-274.961L217.15 376.071c-4.705 4.667-12.303 4.637-16.97-.068l-85.878-86.572c-4.667-4.705-4.637-12.303.068-16.97l8.52-8.451c4.705-4.667 12.303-4.637 16.97.068l68.976 69.533 163.441-162.13c4.705-4.667 12.303-4.637 16.97.068l8.451 8.52c4.668 4.705 4.637 12.303-.068 16.97z" />
+        </svg>
+        <span class="sib-form-message-panel__inner-text">
+          Your subscription has been successful.
+        </span>
+      </div>
+    </div>
+    <div id="sib-container" class="sib-container--large sib-container--vertical" style="text-align:center; background-color:rgba(255,255,255,1); max-width:540px; border-radius:3px; border-width:1px; border-color:#C0CCD9; border-style:solid; direction:ltr">
+      <form id="sib-form" method="POST" action="https://7b586e65.sibforms.com/serve/MUIFADwAnjr57lertJqc4o58dkh9jR8sFK6NAtnocCBT6WmUNlAGjKK_uDj9FK6tbIN-zRIgpxROCjZkPLH7nNro20OXB0W-Cz0Wj3GQ_QlC3ql5A_mHuJ-qlrFpgfsu4187zMVLHKbER49_Jrcth2Xumd14n9V7T1gkMrgDymKWhjcu3ilMYGZbSbzdZXGGRKrBiRQwi6rQfvS_" data-type="subscription">
+        <div style="padding: 8px 0;">
+          <div class="sib-input sib-form-block">
+            <div class="form__entry entry_block">
+              <div class="form__label-row ">
+                <div class="entry__field">
+                  <input class="input"  type="text" id="EMAIL" name="EMAIL" autocomplete="on" placeholder="E-mail address..." data-required="true" required />
+                  <label class="entry__error entry__error--primary" style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;"/>              
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="padding: 8px 0;">
+          <div class="sib-form-block" style="text-align: left">
+            <button class="sib-form-block__button sib-form-block__button-with-loader" style="font-size:16px; text-align:left; font-weight:700; font-family:&quot;Helvetica&quot;, sans-serif; color:#FFFFFF; background-color:#3E4857; border-radius:3px; border-width:0px;" form="sib-form" type="submit">
+            	<svg style="display: none;" width="0" height="0" class="icon clickable__icon progress-indicator__icon sib-hide-loader-icon" viewBox="0 0 512 512">
+                <path d="M460.116 373.846l-20.823-12.022c-5.541-3.199-7.54-10.159-4.663-15.874 30.137-59.886 28.343-131.652-5.386-189.946-33.641-58.394-94.896-95.833-161.827-99.676C261.028 55.961 256 50.751 256 44.352V20.309c0-6.904 5.808-12.337 12.703-11.982 83.556 4.306 160.163 50.864 202.11 123.677 42.063 72.696 44.079 162.316 6.031 236.832-3.14 6.148-10.75 8.461-16.728 5.01z"></path>
+              </svg>
+              Subscribe
+            </button>
+          </div>
+        </div>
+
+        <input type="text" name="email_address_check" value="" class="input--hidden">
+        <input type="hidden" name="locale" value="en">
+      </form>
+    </div>
+  </div>
+</div>
+
+
+<!-- END - We recommend to place the below code where you want the form in your website html  --></div></div><div class="main-blog-content-wrapper"><div class="main-blog-rich-text w-richtext"><p>‍</p><h4>Nickel Takes a Tumble</h4><p>Nickel prices began to fall last year and then didn’t stop falling, from $28,000 per tonne 12 months ago to around $18,000 per tonne today, bottoming at $16,000 last month. Several mines have had to suspend operations as extraction has become unprofitable, but this supply reduction has yet to be reflected in any sign of a market recovery. The situation has been exacerbated by economies with lower capital costs, such as Indonesia, doing their utmost to flood the market in a bid to gain market share.</p><figure style="max-width:600px" class="w-richtext-align-center w-richtext-figure-type-image"><div><img src="https://cdn.prod.website-files.com/6577dfbcd6c53fec0fcf2de0/65f21a2d8ec36dc5b99912e2_Nickel%20Prices.png" loading="lazy" alt=""/></div><figcaption>Source: Markets Insider</figcaption></figure><p>‍</p><p>Nickel is now at its lowest price in almost three years, with short positions on the asset at the London Metal Exchange <a href="https://www.spglobal.com/marketintelligence/en/news-insights/research/metals-price-outlook-2024">currently</a> at a multi-year high. This is quite the precipitous fall since Nickel’s spectacular rise in March 2022, so severe it “<a href="https://www.fnlondon.com/articles/lme-illogically-and-irrationally-rejected-other-options-before-cancelling-4bn-nickel-trades-lawsuit-claims-20230621">broke</a>” the LME. It unwound over $4bn in trades after nickel producer Tsingshan Holding Group pushed prices up to over $100,000 through uncontrolled buying, in hopes of reducing its short position. </p><p>‍</p><h4>Where Next for Palladium?</h4><p>Palladium is currently trading around $940 per ounce, down from $1,700 a year ago. The metal is used to reduce exhaust emissions and its fortunes are linked to those of the EV industry, with the auto sector accounting for 80% of demand for the precious metal. </p><p>‍</p><p>Palladium demand has been further impacted by some automakers switching to platinum for dampening emissions, a cheaper metal. Indeed, in February this year <a href="https://www.mining.com/palladium-price-drops-below-platinum-for-the-first-time-since-2018/">palladium prices fell below platinum</a> prices for the first time since 2018, cementing a 39% decline since 2023 after rising prices from 2018 to 2022 prompted car makers to switch to using the (once) cheaper metal in autocatalysts. </p><p>‍</p><p>Some analysts believe this makes now a great time to buy into palladium, with Citi predicting a short term spike in prices on thin liquidity. </p><p>‍</p><h4>EV Sector Growth </h4><p>While the metals markets twist and turn, the EV sector remains one of the most promising industrial growth sectors today. EV continues to ramp up, with the International Energy Agency <a href="https://www.iea.org/energy-system/transport/electric-vehicles">(IEA) reporting</a> “exponential growth” in the sector, and more than a tripling in sales between 2020 and 2022.</p><p>‍</p><p>Indeed, according to the IEA, electric vehicles now account for around 18% of global car sales - up from just 4% in 2020. With a <a href="https://www.marketsandmarkets.com/Market-Reports/electric-vehicle-market-209371461.html">current market value</a> of around $388 billion, the electric vehicle sector is expected to be worth over $950 billion by 2030. This is a compound annual growth rate (CAGR) of 13.7%. This represents an enormous investment opportunity, especially for investors in the metals commodities markets.</p><p>‍</p><p>‍</p><p><strong>About Truflation</strong></p><p>Truflation is the first DRPp (Definitive Reference Point) protocol. The protocol tracks real-time data across networks, markets, and feeds. Tracking over 18 million items with three price feeds per item, Truflation’s censorship-resistant and accessible data indices provide the necessary data infrastructure to bring about systemic advancements in the DeFi economy, empowering dApps like DEXs to open limitless markets. From speculating on prices of orange juice and uranium, to enabling BTC-denominated oil, gas, and corn prices, Truflation provides the key to unlocking a diverse array of financial markets and instruments in the Web3 world.</p><p>‍</p><p>Learn more about Truflation: <a href="http://www.truflation.com">www.truflation.com</a> </p><p>‍</p></div></div><div class="blog-detail-section-wrapper"><div class="top"><div class="collection-list-wrapper w-dyn-list"><div role="list" class="collection-list w-dyn-items"><div role="listitem" class="collection-item w-dyn-item"><div class="w-embed"><a data-w-id="1ab270ea-040d-6ac3-9daf-d4eb96b37774" href="?tag=Commodities" class="link-block blog-tag-wrap w-inline-block">
+  <div class="tags-custom" style="background-color: rgb(21, 21, 21);">
+ 	 <div fs-cmsfilter-field="tag" class="text-32" style="color: rgb(208, 219, 218); opacity: 0.6;">Commodities</div>
+  </div>
+</a></div></div><div role="listitem" class="collection-item w-dyn-item"><div class="w-embed"><a data-w-id="1ab270ea-040d-6ac3-9daf-d4eb96b37774" href="?tag=Inflation" class="link-block blog-tag-wrap w-inline-block">
+  <div class="tags-custom" style="background-color: rgb(21, 21, 21);">
+ 	 <div fs-cmsfilter-field="tag" class="text-32" style="color: rgb(208, 219, 218); opacity: 0.6;">Inflation</div>
+  </div>
+</a></div></div><div role="listitem" class="collection-item w-dyn-item"><div class="w-embed"><a data-w-id="1ab270ea-040d-6ac3-9daf-d4eb96b37774" href="?tag=Macro" class="link-block blog-tag-wrap w-inline-block">
+  <div class="tags-custom" style="background-color: rgb(21, 21, 21);">
+ 	 <div fs-cmsfilter-field="tag" class="text-32" style="color: rgb(208, 219, 218); opacity: 0.6;">Macro</div>
+  </div>
+</a></div></div></div></div><div class="actions"><div class="w-embed"><a data-w-id="cf699188-d9aa-a7ca-65ce-8ce187721e45" href="https://twitter.com/intent/tweet?url=https://www.ostium.io/blog/macro-research-bites-6-industrial-metals-in-the-electric-vehicles-sector-guest-post" target="_blank" class="copy-to-clipboard w-inline-block" style="background-color: rgba(0, 0, 0, 0);"><div class="icon-social-copy"><img src="https://assets-global.website-files.com/65737c87ec1260a2cdf2b38f/65737c87ec1260a2cdf2b3d4_Vectors-Wrapper.svg" loading="lazy" width="11.333333969116211" height="10.244287490844727" alt="" class="blog-icon" style="filter: brightness(100%);"></div></a></div><div data-w-id="af312a33-7b9f-2b74-9cc2-adf028506501" class="copy-to-clipboard"><div fs-copyclip-message="copied" fs-copyclip-element="click" class="icon-social-copy custom-copy-to-clipboard"><img src="https://cdn.prod.website-files.com/65737c87ec1260a2cdf2b38f/65737c87ec1260a2cdf2b3d5_Vectors-Wrapper.svg" loading="lazy" width="12" height="12" alt="" class="blog-icon"/></div><div class="html-embed-6 w-embed"><p fs-copyclip-element="copy-sibling">https://www.ostium.io/macro-research-bites-6-industrial-metals-in-the-electric-vehicles-sector-guest-post</p></div></div></div></div></div></section><article class="blog blog-detail-page"><div class="blog-header blog-detail-header"><h3>More from Ostium Labs</h3></div><div class="container-4"><div data-w-id="586b1ca6-07ff-33de-7ba7-1c52645c8d65" class="blog-card"><div class="blog-header blog-card"><div class="date"><div class="left"><div class="desktop-body3">Oct 19, 2021</div><img src="https://cdn.prod.website-files.com/65737c87ec1260a2cdf2b38f/65737c87ec1260a2cdf2b3d2_Vectors-Wrapper.svg" loading="lazy" width="3" height="3" alt="" class="vectors-wrapper-56"/><div class="desktop-body3">5min read </div></div></div><div class="blog-content"><div class="blog-content"><div><div class="desktop-h5">A short title that engages our visitors</div><div class="growing-line-wrapper"><div class="growing-line"></div></div></div><div class="desktop-body2">Quis neque, eu et ipsum amet, vel et. Varius integer enim pellentesque ornare pharetra faucibs arcu. Mauris blandit egestas nibh.</div></div><div class="top"><div class="tags-custom"><div class="text-32">Defi</div></div><div class="actions"><div class="button-icon"><img src="https://cdn.prod.website-files.com/65737c87ec1260a2cdf2b38f/65737c87ec1260a2cdf2b3d3_Vectors-Wrapper.svg" loading="lazy" width="32" height="32" alt="" class="vectors-wrapper-57"/><div class="icon-social-copy"><img src="https://cdn.prod.website-files.com/65737c87ec1260a2cdf2b38f/65737c87ec1260a2cdf2b3d4_Vectors-Wrapper.svg" loading="lazy" width="11.333333969116211" height="10.244287490844727" alt="" class="blog-icon"/></div></div><div class="button-icon"><img src="https://cdn.prod.website-files.com/65737c87ec1260a2cdf2b38f/65737c87ec1260a2cdf2b3d3_Vectors-Wrapper.svg" loading="lazy" width="32" height="32" alt="" class="vectors-wrapper-57"/><div class="icon-action copy"><img src="https://cdn.prod.website-files.com/65737c87ec1260a2cdf2b38f/65737c87ec1260a2cdf2b3d5_Vectors-Wrapper.svg" loading="lazy" width="12" height="12" alt="" class="vectors-wrapper-59"/></div></div></div></div></div></div></div><div data-w-id="586b1ca6-07ff-33de-7ba7-1c52645c8d84" class="blog-card"><div class="blog-header blog-card"><div class="date"><div class="left"><div class="desktop-body3">Oct 19, 2021</div><img src="https://cdn.prod.website-files.com/65737c87ec1260a2cdf2b38f/65737c87ec1260a2cdf2b3d2_Vectors-Wrapper.svg" loading="lazy" width="3" height="3" alt="" class="vectors-wrapper-56"/><div class="desktop-body3">5min read </div></div></div><div class="blog-content"><div class="blog-content"><div><div class="desktop-h5">A short title that engages our visitors</div><div class="growing-line-wrapper"><div class="growing-line"></div></div></div><div class="desktop-body2">Quis neque, eu et ipsum amet, vel et. Varius integer enim pellentesque ornare pharetra faucibs arcu. Mauris blandit egestas nibh.</div></div><div class="top"><div class="tags-custom"><div class="text-32">Defi</div></div><div class="actions"><div class="button-icon"><img src="https://cdn.prod.website-files.com/65737c87ec1260a2cdf2b38f/65737c87ec1260a2cdf2b3d3_Vectors-Wrapper.svg" loading="lazy" width="32" height="32" alt="" class="vectors-wrapper-57"/><div class="icon-social-copy"><img src="https://cdn.prod.website-files.com/65737c87ec1260a2cdf2b38f/65737c87ec1260a2cdf2b3d4_Vectors-Wrapper.svg" loading="lazy" width="11.333333969116211" height="10.244287490844727" alt="" class="blog-icon"/></div></div><div class="button-icon"><img src="https://cdn.prod.website-files.com/65737c87ec1260a2cdf2b38f/65737c87ec1260a2cdf2b3d3_Vectors-Wrapper.svg" loading="lazy" width="32" height="32" alt="" class="vectors-wrapper-57"/><div class="icon-action copy"><img src="https://cdn.prod.website-files.com/65737c87ec1260a2cdf2b38f/65737c87ec1260a2cdf2b3d5_Vectors-Wrapper.svg" loading="lazy" width="12" height="12" alt="" class="vectors-wrapper-59"/></div></div></div></div></div></div></div><div data-w-id="586b1ca6-07ff-33de-7ba7-1c52645c8da3" class="blog-card"><div class="blog-header blog-card"><div class="date"><div class="left"><div class="desktop-body3">Oct 19, 2021</div><img src="https://cdn.prod.website-files.com/65737c87ec1260a2cdf2b38f/65737c87ec1260a2cdf2b3d2_Vectors-Wrapper.svg" loading="lazy" width="3" height="3" alt="" class="vectors-wrapper-56"/><div class="desktop-body3">5min read </div></div></div><div class="blog-content"><div class="blog-content"><div><div class="desktop-h5">A short title that engages our visitors</div><div class="growing-line-wrapper"><div class="growing-line"></div></div></div><div class="desktop-body2">Quis neque, eu et ipsum amet, vel et. Varius integer enim pellentesque ornare pharetra faucibs arcu. Mauris blandit egestas nibh.</div></div><div class="top"><div class="tags-custom"><div class="text-32">Defi</div></div><div class="actions"><div class="button-icon"><img src="https://cdn.prod.website-files.com/65737c87ec1260a2cdf2b38f/65737c87ec1260a2cdf2b3d3_Vectors-Wrapper.svg" loading="lazy" width="32" height="32" alt="" class="vectors-wrapper-57"/><div class="icon-social-copy"><img src="https://cdn.prod.website-files.com/65737c87ec1260a2cdf2b38f/65737c87ec1260a2cdf2b3d4_Vectors-Wrapper.svg" loading="lazy" width="11.333333969116211" height="10.244287490844727" alt="" class="blog-icon"/></div></div><div class="button-icon"><img src="https://cdn.prod.website-files.com/65737c87ec1260a2cdf2b38f/65737c87ec1260a2cdf2b3d3_Vectors-Wrapper.svg" loading="lazy" width="32" height="32" alt="" class="vectors-wrapper-57"/><div class="icon-action copy"><img src="https://cdn.prod.website-files.com/65737c87ec1260a2cdf2b38f/65737c87ec1260a2cdf2b3d5_Vectors-Wrapper.svg" loading="lazy" width="12" height="12" alt="" class="vectors-wrapper-59"/></div></div></div></div></div></div></div></div><div fs-cmsfilter-element="list" fs-cmsload-element="list" class="collection-list-wrapper-3 home-page w-dyn-list"><div role="list" class="grid _2 home-grid w-dyn-items"><div role="listitem" class="item w-dyn-item"><div class="blog-card blog-page-card"><div class="blog-header blog-card"><div class="date"><div class="left"><div class="desktop-body3 blog-date">May 28, 2024</div><img src="https://cdn.prod.website-files.com/65737c87ec1260a2cdf2b38f/65737c87ec1260a2cdf2b3d2_Vectors-Wrapper.svg" loading="lazy" width="3" height="3" alt="" class="vectors-wrapper-56"/><div class="desktop-body3">5 min read </div></div></div><div class="blog-content"><a href="/blog/testnet-trading-competition" class="link-block-2 w-inline-block"><div class="blog-content"><div><div fs-cmsfilter-field="heading" class="desktop-h5 animated-line">Testnet Trading Competition</div><div class="growing-line-wrapper"><div class="growing-line"></div></div></div><div fs-cmsfilter-field="excerpt" class="desktop-body2">Ostium’s public testnet trading competition launches today! The competition runs from 12pm UTC Tuesday 5/28 through 8pm UTC Friday 6/7, with over $10k in prizes. 🎉</div></div></a><div class="top"><div class="collection-list-wrapper w-dyn-list"><div role="list" class="collection-list w-dyn-items"><div role="listitem" class="collection-item w-dyn-item"><div class="w-embed"><a data-w-id="1ab270ea-040d-6ac3-9daf-d4eb96b37774" href="/blog?tags=Defi" class="link-block blog-tag-wrap w-inline-block">
+  <div class="tags-custom" style="background-color: rgb(21, 21, 21);">
+ 	 <div fs-cmsfilter-field="tags" class="text-32" style="color: rgb(208, 219, 218); opacity: 0.6;">Defi</div>
+  </div>
+</a></div></div><div role="listitem" class="collection-item w-dyn-item"><div class="w-embed"><a data-w-id="1ab270ea-040d-6ac3-9daf-d4eb96b37774" href="/blog?tags=Trading" class="link-block blog-tag-wrap w-inline-block">
+  <div class="tags-custom" style="background-color: rgb(21, 21, 21);">
+ 	 <div fs-cmsfilter-field="tags" class="text-32" style="color: rgb(208, 219, 218); opacity: 0.6;">Trading</div>
+  </div>
+</a></div></div><div role="listitem" class="collection-item w-dyn-item"><div class="w-embed"><a data-w-id="1ab270ea-040d-6ac3-9daf-d4eb96b37774" href="/blog?tags=Commodities" class="link-block blog-tag-wrap w-inline-block">
+  <div class="tags-custom" style="background-color: rgb(21, 21, 21);">
+ 	 <div fs-cmsfilter-field="tags" class="text-32" style="color: rgb(208, 219, 218); opacity: 0.6;">Commodities</div>
+  </div>
+</a></div></div><div role="listitem" class="collection-item w-dyn-item"><div class="w-embed"><a data-w-id="1ab270ea-040d-6ac3-9daf-d4eb96b37774" href="/blog?tags=Bitcoin" class="link-block blog-tag-wrap w-inline-block">
+  <div class="tags-custom" style="background-color: rgb(21, 21, 21);">
+ 	 <div fs-cmsfilter-field="tags" class="text-32" style="color: rgb(208, 219, 218); opacity: 0.6;">Bitcoin</div>
+  </div>
+</a></div></div><div role="listitem" class="collection-item w-dyn-item"><div class="w-embed"><a data-w-id="1ab270ea-040d-6ac3-9daf-d4eb96b37774" href="/blog?tags=Forex" class="link-block blog-tag-wrap w-inline-block">
+  <div class="tags-custom" style="background-color: rgb(21, 21, 21);">
+ 	 <div fs-cmsfilter-field="tags" class="text-32" style="color: rgb(208, 219, 218); opacity: 0.6;">Forex</div>
+  </div>
+</a></div></div></div></div><div class="actions"><div class="w-embed"><a data-w-id="cf699188-d9aa-a7ca-65ce-8ce187721e45" href="https://twitter.com/intent/tweet?url=https://www.ostium.io/blog/testnet-trading-competition" target="_blank" class="copy-to-clipboard w-inline-block" style="background-color: rgba(0, 0, 0, 0);"><div class="icon-social-copy"><img src="https://assets-global.website-files.com/65737c87ec1260a2cdf2b38f/65737c87ec1260a2cdf2b3d4_Vectors-Wrapper.svg" loading="lazy" width="11.333333969116211" height="10.244287490844727" alt="" class="blog-icon" style="filter: brightness(100%);"></div></a></div><div data-w-id="e1ae88b0-4a5d-d69f-e82e-2a4257c18932" class="copy-to-clipboard"><div fs-copyclip-message="copied" fs-copyclip-element="click" class="icon-social-copy custom-copy-to-clipboard"><img src="https://cdn.prod.website-files.com/65737c87ec1260a2cdf2b38f/65737c87ec1260a2cdf2b3d5_Vectors-Wrapper.svg" loading="lazy" width="12" height="12" alt="" class="blog-icon"/></div><div class="html-embed-6 w-embed"><p fs-copyclip-element="copy-sibling">https://www.ostium.io/blog/testnet-trading-competition</p></div></div></div></div><div class="div-block-31"><p fs-cmsfilter-field="category">News</p></div></div></div></div></div><div role="listitem" class="item w-dyn-item"><div class="blog-card blog-page-card"><div class="blog-header blog-card"><div class="date"><div class="left"><div class="desktop-body3 blog-date">March 13, 2024</div><img src="https://cdn.prod.website-files.com/65737c87ec1260a2cdf2b38f/65737c87ec1260a2cdf2b3d2_Vectors-Wrapper.svg" loading="lazy" width="3" height="3" alt="" class="vectors-wrapper-56"/><div class="desktop-body3">5 min read </div></div></div><div class="blog-content"><a href="/blog/macro-research-bites-6-industrial-metals-in-the-electric-vehicles-sector-guest-post" aria-current="page" class="link-block-2 w-inline-block w--current"><div class="blog-content"><div><div fs-cmsfilter-field="heading" class="desktop-h5 animated-line">Macro Research Bites #6: Industrial Metals in the Electric Vehicles sector (Truflation Guest Post)</div><div class="growing-line-wrapper"><div class="growing-line"></div></div></div><div fs-cmsfilter-field="excerpt" class="desktop-body2">This week, we bring on Stefan Rust, CEO of Truflation, as a guest author for our Macro Research Bites series. We dive into industrial metals like lithium, copper, cobalt, nickel and palladium – many of which will soon be tradable as perpetuals on Ostium – and explore their significance to the growing Electric Vehicles sector.</div></div></a><div class="top"><div class="collection-list-wrapper w-dyn-list"><div role="list" class="collection-list w-dyn-items"><div role="listitem" class="collection-item w-dyn-item"><div class="w-embed"><a data-w-id="1ab270ea-040d-6ac3-9daf-d4eb96b37774" href="/blog?tags=Commodities" class="link-block blog-tag-wrap w-inline-block">
+  <div class="tags-custom" style="background-color: rgb(21, 21, 21);">
+ 	 <div fs-cmsfilter-field="tags" class="text-32" style="color: rgb(208, 219, 218); opacity: 0.6;">Commodities</div>
+  </div>
+</a></div></div><div role="listitem" class="collection-item w-dyn-item"><div class="w-embed"><a data-w-id="1ab270ea-040d-6ac3-9daf-d4eb96b37774" href="/blog?tags=Inflation" class="link-block blog-tag-wrap w-inline-block">
+  <div class="tags-custom" style="background-color: rgb(21, 21, 21);">
+ 	 <div fs-cmsfilter-field="tags" class="text-32" style="color: rgb(208, 219, 218); opacity: 0.6;">Inflation</div>
+  </div>
+</a></div></div><div role="listitem" class="collection-item w-dyn-item"><div class="w-embed"><a data-w-id="1ab270ea-040d-6ac3-9daf-d4eb96b37774" href="/blog?tags=Macro" class="link-block blog-tag-wrap w-inline-block">
+  <div class="tags-custom" style="background-color: rgb(21, 21, 21);">
+ 	 <div fs-cmsfilter-field="tags" class="text-32" style="color: rgb(208, 219, 218); opacity: 0.6;">Macro</div>
+  </div>
+</a></div></div></div></div><div class="actions"><div class="w-embed"><a data-w-id="cf699188-d9aa-a7ca-65ce-8ce187721e45" href="https://twitter.com/intent/tweet?url=https://www.ostium.io/blog/macro-research-bites-6-industrial-metals-in-the-electric-vehicles-sector-guest-post" target="_blank" class="copy-to-clipboard w-inline-block" style="background-color: rgba(0, 0, 0, 0);"><div class="icon-social-copy"><img src="https://assets-global.website-files.com/65737c87ec1260a2cdf2b38f/65737c87ec1260a2cdf2b3d4_Vectors-Wrapper.svg" loading="lazy" width="11.333333969116211" height="10.244287490844727" alt="" class="blog-icon" style="filter: brightness(100%);"></div></a></div><div data-w-id="e1ae88b0-4a5d-d69f-e82e-2a4257c18932" class="copy-to-clipboard"><div fs-copyclip-message="copied" fs-copyclip-element="click" class="icon-social-copy custom-copy-to-clipboard"><img src="https://cdn.prod.website-files.com/65737c87ec1260a2cdf2b38f/65737c87ec1260a2cdf2b3d5_Vectors-Wrapper.svg" loading="lazy" width="12" height="12" alt="" class="blog-icon"/></div><div class="html-embed-6 w-embed"><p fs-copyclip-element="copy-sibling">https://www.ostium.io/blog/macro-research-bites-6-industrial-metals-in-the-electric-vehicles-sector-guest-post</p></div></div></div></div><div class="div-block-31"><p fs-cmsfilter-field="category">Macro Research</p></div></div></div></div></div><div role="listitem" class="item w-dyn-item"><div class="blog-card blog-page-card"><div class="blog-header blog-card"><div class="date"><div class="left"><div class="desktop-body3 blog-date">March 11, 2024</div><img src="https://cdn.prod.website-files.com/65737c87ec1260a2cdf2b38f/65737c87ec1260a2cdf2b3d2_Vectors-Wrapper.svg" loading="lazy" width="3" height="3" alt="" class="vectors-wrapper-56"/><div class="desktop-body3">5 min read </div></div></div><div class="blog-content"><a href="/blog/announcing-testnet-beta" class="link-block-2 w-inline-block"><div class="blog-content"><div><div fs-cmsfilter-field="heading" class="desktop-h5 animated-line">Announcing Testnet Beta</div><div class="growing-line-wrapper"><div class="growing-line"></div></div></div><div fs-cmsfilter-field="excerpt" class="desktop-body2">The wait is over. Our testnet Beta opens up to our first batch of users Monday 3/18!</div></div></a><div class="top"><div class="collection-list-wrapper w-dyn-list"><div role="list" class="collection-list w-dyn-items"><div role="listitem" class="collection-item w-dyn-item"><div class="w-embed"><a data-w-id="1ab270ea-040d-6ac3-9daf-d4eb96b37774" href="/blog?tags=Announcements" class="link-block blog-tag-wrap w-inline-block">
+  <div class="tags-custom" style="background-color: rgb(21, 21, 21);">
+ 	 <div fs-cmsfilter-field="tags" class="text-32" style="color: rgb(208, 219, 218); opacity: 0.6;">Announcements</div>
+  </div>
+</a></div></div></div></div><div class="actions"><div class="w-embed"><a data-w-id="cf699188-d9aa-a7ca-65ce-8ce187721e45" href="https://twitter.com/intent/tweet?url=https://www.ostium.io/blog/announcing-testnet-beta" target="_blank" class="copy-to-clipboard w-inline-block" style="background-color: rgba(0, 0, 0, 0);"><div class="icon-social-copy"><img src="https://assets-global.website-files.com/65737c87ec1260a2cdf2b38f/65737c87ec1260a2cdf2b3d4_Vectors-Wrapper.svg" loading="lazy" width="11.333333969116211" height="10.244287490844727" alt="" class="blog-icon" style="filter: brightness(100%);"></div></a></div><div data-w-id="e1ae88b0-4a5d-d69f-e82e-2a4257c18932" class="copy-to-clipboard"><div fs-copyclip-message="copied" fs-copyclip-element="click" class="icon-social-copy custom-copy-to-clipboard"><img src="https://cdn.prod.website-files.com/65737c87ec1260a2cdf2b38f/65737c87ec1260a2cdf2b3d5_Vectors-Wrapper.svg" loading="lazy" width="12" height="12" alt="" class="blog-icon"/></div><div class="html-embed-6 w-embed"><p fs-copyclip-element="copy-sibling">https://www.ostium.io/blog/announcing-testnet-beta</p></div></div></div></div><div class="div-block-31"><p fs-cmsfilter-field="category">News</p></div></div></div></div></div></div></div></article><div class="w-embed"><style>
+
+.animated-line {
+  display: inline-block;
+  position: relative;
+ 
+}
+
+.animated-line::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #FF5A19;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.blog-page-card:hover .animated-line::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.blog-page-card:hover .animated-line{
+color: #FF5A19;
+}
+.blog-page-card-featured:hover .animated-line::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.blog-page-card-featured:hover .animated-line{
+color: #FF5A19;
+}
+.tags-test .fs-cmsfilter_active span{
+color: #FF5A19;
+}
+</style></div><footer class="footer"><div class="container-5"><div class="div-block-8"><img src="https://cdn.prod.website-files.com/65737c87ec1260a2cdf2b38f/657ba759c5f2312fc8da3863_Graphic.png" loading="lazy" sizes="(max-width: 767px) 100vw, 650px" srcset="https://cdn.prod.website-files.com/65737c87ec1260a2cdf2b38f/657ba759c5f2312fc8da3863_Graphic-p-500.png 500w, https://cdn.prod.website-files.com/65737c87ec1260a2cdf2b38f/657ba759c5f2312fc8da3863_Graphic-p-800.png 800w, https://cdn.prod.website-files.com/65737c87ec1260a2cdf2b38f/657ba759c5f2312fc8da3863_Graphic.png 850w" alt="" class="image-98"/><img src="https://cdn.prod.website-files.com/65737c87ec1260a2cdf2b38f/657ba541f15f9c1fb0f916f1_image%20217.png" loading="lazy" sizes="100vw" srcset="https://cdn.prod.website-files.com/65737c87ec1260a2cdf2b38f/657ba541f15f9c1fb0f916f1_image%20217-p-500.png 500w, https://cdn.prod.website-files.com/65737c87ec1260a2cdf2b38f/657ba541f15f9c1fb0f916f1_image%20217-p-800.png 800w, https://cdn.prod.website-files.com/65737c87ec1260a2cdf2b38f/657ba541f15f9c1fb0f916f1_image%20217-p-1080.png 1080w, https://cdn.prod.website-files.com/65737c87ec1260a2cdf2b38f/657ba541f15f9c1fb0f916f1_image%20217.png 1240w" alt="" class="image-97"/><img src="https://cdn.prod.website-files.com/65737c87ec1260a2cdf2b38f/65737c87ec1260a2cdf2b3dc_Vectors-Wrapper.svg" loading="lazy" width="493.9985046386719" height="456" alt="" class="vectors-wrapper-66"/></div><div class="div-block-4"><div class="desktop-h2 footer-h2">Onchain Perps<br/> 
+for Real World Assets</div><div class="div-block-50"><div class="div-block-46"><ul role="list" class="list"><li class="list-item footer-nav-link"><p class="desktop-body2 footer-title">Resources</p></li><li class="list-item footer-nav-link"><a href="/" class="desktop-body3 navbar-text footer-link">Home</a></li><li class="list-item footer-nav-link"><a href="/blog" class="desktop-body3 navbar-text footer-link">Blog</a></li><li class="list-item footer-nav-link"><a href="https://drive.google.com/file/d/1X6UNBmvXezkzp5gtXSrgle72PF7BeZ-7/view" target="_blank" class="desktop-body3 navbar-text footer-link">Media Kit</a></li></ul><ul role="list" class="list"><li class="list-item footer-nav-link"><p class="desktop-body2 footer-title">Company</p></li><li class="list-item footer-nav-link"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfhst1ntPzlqRMOiaRQD5PHHHlhNZpEdaQXOjb4MIxFWikSxg/viewform?pli=1" target="_blank" class="desktop-body3 navbar-text footer-link">Careers</a></li><li class="list-item footer-nav-link"><a href="#" class="desktop-body3 navbar-text footer-link">Terms &amp; Conditions</a></li><li class="list-item footer-nav-link"><a href="mailto:team@ostium.io?subject=Inbound!" class="desktop-body3 navbar-text footer-link">Contact</a></li></ul><ul role="list" class="list"><li class="list-item footer-nav-link"><p class="desktop-body2 footer-title">Developers</p></li><li class="list-item footer-nav-link"><a href="https://ostium-labs.gitbook.io/ostium-docs" target="_blank" class="desktop-body3 navbar-text footer-link">Documentation</a></li><li class="list-item footer-nav-link"><a href="#" class="desktop-body3 navbar-text footer-link">Github (coming soon)</a></li></ul></div><div class="div-block-26"><div class="social-media"><a href="https://twitter.com/ostiumlabs" target="_blank" class="social-media-default w-inline-block"><img src="https://cdn.prod.website-files.com/65737c87ec1260a2cdf2b38f/65737c87ec1260a2cdf2b3d8_Vectors-Wrapper.svg" loading="lazy" width="24" height="24" alt="" class="vectors-wrapper-65"/></a><a href="https://discord.gg/44hxSkfy9a" target="_blank" class="social-media-default w-inline-block"><img src="https://cdn.prod.website-files.com/65737c87ec1260a2cdf2b38f/65737c87ec1260a2cdf2b3db_Vectors-Wrapper.svg" loading="lazy" width="24" height="24" alt="" class="vectors-wrapper-65"/></a><a href="https://t.me/ostiumio" target="_blank" class="social-media-default w-inline-block"><img src="https://cdn.prod.website-files.com/65737c87ec1260a2cdf2b38f/65737c87ec1260a2cdf2b3da_Vectors-Wrapper.svg" loading="lazy" width="24" height="24" alt="" class="vectors-wrapper-65"/></a><a href="https://medium.com/@ostiumlabs" target="_blank" class="social-media-default w-inline-block"><img src="https://cdn.prod.website-files.com/65737c87ec1260a2cdf2b38f/65737c87ec1260a2cdf2b3d9_Vectors-Wrapper.svg" loading="lazy" width="24" height="24" alt="" class="vectors-wrapper-65"/></a></div><div class="desktop-body2-2 footer-trademark">© 2024 Ostium</div></div></div></div></div><div class="w-embed"><style>
+
+.navbar-text {
+  display: inline-block;
+  position: relative;
+ 
+}
+
+.navbar-text::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #FF5A19;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.footer-link:hover{
+color:#FF5A19;
+}
+.nav-bar-new-link:hover .navbar-text::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.footer-nav-link:hover .navbar-text::after{
+ transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+@media screen and (min-width:991px){
+  .nav-bar-new-link:hover .navbar-text{
+    color:#FF5A19;
+  }
+
+
+  .w--current .navbar-text{
+  color:#FF5A19;
+  }
+
+}
+
+
+</style></div></footer><script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=65737c87ec1260a2cdf2b38f" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/65737c87ec1260a2cdf2b38f/js/webflow.420406083.js" type="text/javascript"></script><script>
+  window.REQUIRED_CODE_ERROR_MESSAGE = 'Please choose a country code';
+  window.LOCALE = 'en';
+  window.EMAIL_INVALID_MESSAGE = window.SMS_INVALID_MESSAGE = "The information provided is invalid. Please review the field format and try again.";
+
+  window.REQUIRED_ERROR_MESSAGE = "This field cannot be left blank. ";
+
+  window.GENERIC_INVALID_MESSAGE = "The information provided is invalid. Please review the field format and try again.";
+
+
+
+
+  window.translation = {
+    common: {
+      selectedList: '{quantity} list selected',
+      selectedLists: '{quantity} lists selected'
+    }
+  };
+
+  var AUTOHIDE = Boolean(0);
+</script>
+<script defer src="https://sibforms.com/forms/end-form/build/main.js"></script></body></html>
